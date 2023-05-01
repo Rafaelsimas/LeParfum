@@ -1,0 +1,127 @@
+
+
+/* ===============DESKTOP=================== */
+   
+    .box-flex-hero{
+        width: 81%;
+        margin-inline: auto;
+    margin-top: 1rem;
+      height: 80vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .box-flex-hero .box-text{
+       width: 80%;
+    }
+    
+    .box-flex-hero .box-text h1{
+       font-size: 3.5rem;
+       margin-bottom: 30px;
+    }
+    
+    .box-flex-hero .box-text p{
+       margin-bottom: 30px;
+    }
+    
+    .box-flex-hero .box-text .btn-hero{
+        display: flex;
+        flex-direction: row;
+        gap: 1.8rem;
+        width: 70%;
+    }
+    .box-flex-hero .box-text button{
+       width: 100%;
+       padding: 1.5rem;
+       border: none;
+       border-radius: 3px;
+    }
+    
+    .enter-store{
+        background: var(--bg-menu-color);
+        font-weight: bold;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .enter-store:hover{
+    background: black;
+    color: var(--bg-menu-color);
+    font-weight: bold;
+    }
+    
+    .talk-us{
+        background: var(--btn-white);
+        font-weight: bold;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .talk-us:hover{
+        background: white;
+    }
+    
+    
+    
+    /* =============BOX IMAGE====================== */
+    
+    .box-flex-hero .box-image{
+        display: block;
+       width: 42%;
+    }
+    
+    .box-flex-hero .box-image img{
+        width: 39.8rem;
+    }
+
+/* ======================MOBLILE========================== */
+    @media (max-width: 506px){
+        .box-flex-hero{
+            width: 100%;
+            margin-inline: auto;
+        margin-top: 1rem;
+          height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .box-flex-hero .box-text{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+         }
+
+         .box-flex-hero .box-text h1{
+            margin-bottom: 30px;
+            font-size: 2.9rem;
+         }
+
+         .box-flex-hero .box-text p{
+            margin-bottom: 30px;
+         }
+
+         .box-flex-hero .box-text .btn-hero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1.8rem;
+            width: 100%;
+        }
+
+        .box-flex-hero .box-text button{
+            width: 90%;
+            padding: 1.5rem;
+            border: none;
+            border-radius: 3px;
+         }
+
+        .box-flex-hero .box-image{
+            display: none;
+           width: 42%;
+        }
+    }
