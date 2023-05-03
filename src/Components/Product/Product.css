@@ -1,0 +1,27 @@
+#option-list .option{
+    width: 278px;
+}
+
+#option-list .option.selected{
+   border: 5px solid var(--bg-top-menu);
+   border-radius: 9px;
+}
+
+#option-list .option img {
+    width: 268px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.container-qtd {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.container-qtd > div{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}

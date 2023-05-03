@@ -1,0 +1,75 @@
+/* ==================
+MENU MOBILIE
+
+
+Menu desktop inicia escondido nessa etapa
+============== */
+#top-desktop{
+    display: none;
+}
+
+#top-mobile{
+    width: 100%;
+    background: var( --bg-top-menu);
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+#top-mobile #box-mobile{
+    width: 98%;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#top-mobile #box-mobile ion-icon{
+    font-size: 2rem;
+}
+
+
+/* ==================
+MENU DESKTOP
+
+
+Menu mobile inicia escondido nessa etapa
+============== */
+
+@media (min-width: 1100px){
+    #top-mobile{
+        display: none;
+    }
+
+    #top-desktop{
+        display: block;
+    }
+
+    #top-desktop{
+        width: 100%;
+        background: var(--bg-top-menu);
+        display: flex;
+        justify-content: center;
+    }
+    #top-desktop #box-desktop{
+        width: 90%;
+        height: 93px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #top-desktop #box-desktop #list-menu{
+        display: flex;
+    }
+    #top-desktop #box-desktop #list-menu li{
+        margin-left: 1.5rem;
+    }
+    #top-desktop #box-desktop #list-menu li a{
+       color: black;
+       font-weight: bold;
+    }
+    #top-desktop #box-desktop #list-menu li a.active{
+      background: white;
+      padding: 0.5rem 1.5rem;
+    }
+}

@@ -1,0 +1,75 @@
+#hero .box-hero .box-text .box-btn {
+  width: 90%;
+  margin-inline: auto;
+}
+
+#hero .box-hero .box-text .box-btn button {
+  width: 100%;
+  padding: 1.5rem;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.3s ease-in-out;
+  color: black;
+}
+
+.link{
+  color: black;
+  font-weight: bold;
+}
+
+#hero .box-hero .box-text .box-btn button.btn-enter {
+  background: var(--bg-top-menu);
+  font-weight: bold;
+}
+#hero .box-hero .box-text .box-btn button.btn-contact {
+  background: var(--btn-contact);
+  font-weight: bold;
+}
+
+#hero .box-hero .box-text .box-btn button.btn-enter:hover {
+  background: black;
+  color: pink;
+}
+
+#hero .box-hero .box-text .box-btn button.btn-contact:hover {
+  background: grey;
+  color: black;
+}
+
+@media (min-width: 1100px) {
+  #hero .box-hero .box-text .box-btn {
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    gap: 1rem;
+  }
+
+  #hero .box-hero .box-text .box-btn button {
+    width: 40%;
+    padding: 1.5rem;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 15px;
+  }
+
+  #hero .box-hero .box-text .box-btn button.btn-enter {
+    background: var(--bg-top-menu);
+    font-weight: bold;
+  }
+  #hero .box-hero .box-text .box-btn button.btn-enter:hover {
+    background: black;
+    color: pink;
+  }
+
+  #hero .box-hero .box-text .box-btn button.btn-contact {
+    background: var(--btn-contact);
+    font-weight: bold;
+  }
+  #hero .box-hero .box-text .box-btn button.btn-contact:hover {
+    background: grey;
+    color: black;
+  }
+}
